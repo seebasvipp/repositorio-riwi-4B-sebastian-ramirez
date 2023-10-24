@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOJA DE VIDA</title>
+    <table>
+        <tr>
+            <td>
+                <img style="background-color: rgb(158, 164, 240);" height="250px" width="250px" src="https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo.png" alt="Imagen de hoja de vida">
+            </td>
+            <td style="padding-left: 40px;">
+                <p>Ingrese su nombre: <input placeholder="Ejemplo Garcia" type="text"></p>
+                <p>Ingrese su direccion: <input placeholder="Calle falsa-45-76" type="text"></p>
+                <p>Telefono u Celular: <input placeholder="123456789" type="text"></p>
+                <p>E-mail: <input placeholder="ejemplo1@ejemplo.com" type="email"></p>
+            </td>
+        </tr>
+    </table>
+</head>
+<body style="background-color: lightskyblue;">
+    <br>
+    <h2>Perfil tecnico laboral</h2>
+    <textarea placeholder="Perfil tecnico aqui..." name="" id="" cols="30" rows="10"></textarea>
+        
+    </b></p>
+    <br>
+    <h2>Datos personales</h2>
+    <p>Fecha de nacimiento: <input placeholder="16/05/2000" type="month"></p>
+    <p>Lugar de nacimiento: <input placeholder="Venezuela" type="text"></p>
+    <p>Estado civil: <input placeholder="viudo" type="text"></p>
+    <p>Libreta militar: <input placeholder="Si" type="text"></p>
+    <br>
+    <h2>Estudios realizados</h2>
+    <textarea placeholder="Estudios realizados aqui " name="" id="" cols="30" rows="10"></textarea>
+
+    <center>
+        <tr>
+            <td>
+                <form action="http://youtube.com" method="post">
+                    <input  style="height: 105px;" type="image" src="./save-to-disk-user-interface-icon-vector.jpg">  
+                </form>
+            </td>      
+        </tr>
+    </center>
+    <hr>
+
+</body>
+</html>
