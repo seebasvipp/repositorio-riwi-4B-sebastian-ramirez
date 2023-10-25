@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de sebastian ramirez</title>
+    <center>
+    <table>
+        <tr>
+            <td>   
+                <img style="width: 200px;" src="https://img.asmedia.epimg.net/resizer/ffm9rKRClUa99JRA7RTs9O8r5ak=/1200x1200/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/OBEMEZXV4BLTNHZCA2PEP4HBLY.jpg" alt="Imagen anonimus">
+            </td>
+            <td>
+                <h1 style="color: white; padding-left: 40px; padding-right: 40px;">
+                    SEBASTIAN RAMIREZ GARCIA 4B
+                </h1>
+            </td>
+            <td>
+                <img style="width: 200px;" src="https://img.asmedia.epimg.net/resizer/ffm9rKRClUa99JRA7RTs9O8r5ak=/1200x1200/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/OBEMEZXV4BLTNHZCA2PEP4HBLY.jpg" alt="imagen anonimus">
+            </td>
+        </tr>
+    </table>
+    </center>
+    <hr>
+</head>
+<body style="background-color: black;">
+    <br>
+    <center>
+    <h1 style="color: white; font-size: 50px;">
+        Mis trabajos realizados
+    </h1>
+    <br>
+    <table >
+        <tr>
+            <td style="padding-right: 45px;">
+                <img style="width: 450px;" src="https://i.postimg.cc/L6ykf2xh/1.png" alt="Imagen ejercicio 1">
+            </td>
+            <td style="padding-right: 45px;">
+                <img style="width: 450px;" src="https://i.postimg.cc/8k4LQTQw/2.png" alt="Imagen de ejercicio 2">
+            </td>
+            <td>
+                <img style="width: 235px;" src="https://www.yunbitsoftware.com/blog/wp-content/uploads/2020/12/construction-worker-builder-with-tools-scaled-e1607617086908.jpg" alt="">
+            </td>
+        
+        <tr>
+            <td style="padding-right: 45px;">
+                <center>
+                    <h3  style="color: white;">
+                        Ejercicio 1 (login)
+                    </h3>
+                    <p style="color: white;">
+                        Realice un pequeño ejercicio de login en HTML,<br>
+                        usando etiquetas como br, p, h, inputs y demas<br><br>
+                        <b>Dale clik al boton de abajo para verlo</b>
+                    </p>
+                    <a href="https://seebasvipp.github.io/repositorio-riwi-4B-sebastian-ramirez/ejercicio1.html">
+                        <button style="height: 45px; background-color: burlywood;"><b>Ejercicio#1</b></button>
+                    </a>
+                </center>
+            </td>
+            <td style="padding-right: 45px;">
+                <center>
+                    <h3 style="color: white;">
+                        Ejercicio Hoja de vida
+                    </h3>
+                    <p style="color: white;">
+                        Realice una hoja de vida en HTML usando etiquetas,<br>
+                        como br, p, b, inputs, img, tr, hr, td, y demas <br><br>
+                        <b>Dale clik al boton de abajo para verlo</b>
+                    </p>
+                    <a href="https://seebasvipp.github.io/repositorio-riwi-4B-sebastian-ramirez/HojaDeVida.html">
+                        <button style="height: 45px; background-color: coral;"><b>Ejercicio#2</b></button>
+                    </a>
+                </center>
+            </td>
+        </tr>
+    </table>
+    </center>
+    <h2 style="color: white;">
+        <a href="https://github.com/seebasvipp">Mas sobre mi</a>
+    </h2>
+    <hr>
+</body>
+<footer>
+    <p style="color: white;">By sebastian ramirez garcia</p>
+</footer>
+</html>
