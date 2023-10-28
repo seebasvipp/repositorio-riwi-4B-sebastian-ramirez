@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://img.freepik.com/premium-vector/horizontal-background-with-smooth-gradient-vector-illustration_522680-329.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698278400&semt=ais);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor_principal{
+    display: flex;
+}
+
+.contenedor_login{
+    transform: translate(123%,30px);
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    width: 375px;
+    height: 370px;
+    border: 2px solid black;
+}
+
+.contenedor_crear_cuenta{
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    width: 376px;
+    height: 70px;
+    border: 2px solid black;
+}
+
+.contenedor_imagen{
+    transform: translate(100%, 20%);
+}
+
+
+
+
+
+
+
+
+
+.usser{
+    width: 300px;
+    height: 25px;
+}
+
+.contraseña{
+    margin-top: 8px;
+    width: 300px;
+    height: 25px;
+}
+
+.log_in{
+    margin-top: 8px;
+    width: 310px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #00b0ff;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+}
+
+.hr_1{
+    width: 300px
+}
