@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="ig2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor_principal">
+        <div class="contenedor_imagen">
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk" alt="celular ig">
+        </div>
+        <div class="contenedor_login">
+            <h1 style="font-family: 'Pacifico', cursive;">Instagram</h1>
+            <br>
+            <input class="usser" placeholder="Telefono, usurario o correo electronico" type="text" required>
+            <br>
+            <input class="contraseña" placeholder="Contraseña" type="password" required>
+            <br>
+            <a target="_blank" href="https://instagram.com">
+                <button class="log_in"><b>Log in</b></button>
+            </a>
+            <hr style="margin-top: 35px;" class="hr_1">
+            <b>Or</b>
+            <br>
+            <a target="_blank" style="text-decoration: none;" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Den_US%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%25226d9ejcq5u2gh12jvy4m6w5br6c7ylmwgdb59brw3mgjf4s35q%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D79c2214d-5d4b-401e-b279-7a07a7fb66e8%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25226d9ejcq5u2gh12jvy4m6w5br6c7ylmwgdb59brw3mgjf4s35q%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0"><i style="font-size: 25px; color: #00b0ff;" class="fa-brands fa-facebook"></i> Iniciar sesion con facebook</a>
+            <br>
+            <a target="_blank" style="text-decoration: none;" href="https://www.instagram.com/accounts/password/reset/"><h6>Recordar contraseña</h6></a>
+            <br>
+            <div class="contenedor_crear_cuenta">
+                <p>No tienes una cuenta? <a style="text-decoration: none; color: #00b0ff;" href="https://www.instagram.com/accounts/emailsignup/"><b>Crea una ahora</b></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
