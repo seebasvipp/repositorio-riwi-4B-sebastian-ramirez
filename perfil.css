@@ -1,0 +1,54 @@
+*{
+    margin: 1px;
+}
+
+.nav{
+    display: flex;
+}
+
+.buscador{
+    width: 199px;
+    height: 35px;
+    transform: translate(650px, 10px);
+    text-align: center;
+}
+
+.img{
+    width: 60px;
+    border-radius: 100%;
+    transform: translate(1272px);
+    border: 2px solid green;
+    padding: 1px;
+    
+}
+
+.ig{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.imagen_principal{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 2px solid green;
+    padding: 1px;
+    transform: translateX(115px);
+}
+
+.contenedor_principal{
+    display: flex;
+}
+
+.follows{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    border-bottom: 2px solid black;
+}
+
+.holanda{
+    width: 962.375px;
+    transform: translateX(508px);
+}
