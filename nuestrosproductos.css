@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header{
+    width: 100%;
+    height: 65px;
+    background-color: darkgray;
+    position: fixed;
+}
+
+body{
+    font-family: 'Neuton', serif;
+}
+
+
+
+.logo-menu{
+    float: left;
+    line-height: 65px;
+}
+
+.logo-menu img {
+    width: 200px;
+    margin: auto;
+}
+
+.menu{
+    float: right;
+    line-height: 65px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding: 0px 20px;
+}
+
+.menu li:hover{
+    background-color: brown;
+    height: 65px;
+    cursor: pointer;
+}
+
+.menu .submenu{
+    background-color: violet;
+    display: none;
+}
+
+.menu .submenu li a{
+    line-height: 50px;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+    width: 150px;
+    position: absolute;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+
+
+}
+
+.caja1{
+    height: auto;
+    grid-column: 1 / 5;
+    text-align: center;
+
+}
+
+.caja{
+    height: auto;
+    border-radius: 10%;
+    margin: 10px;
+    text-align: center;
+    width: 360px;
+    border: 1px solid black;
+
+}
+
+.caja:hover{
+    border: 4px solid black;
+}
+
+.caja button:hover{
+    height: 40px;
+    width: 100px;
+}
+
+
+.boto:hover{
+    color: #fefae0;
+    background-color: #01172f;
+}
+
+.img1{
+    width: 300px;
+    height: 450;
+}
+ 
+
+footer{
+    height: 150px;
+    width: 100%;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 150px;
+}
+
+.caja-footer{
+    height: 150px;
+    padding: 5px;
+}
+
+.caja-baja-footer{
+    padding: 5px;
+    height: auto;
+    grid-column: 1/5;
+}
+
+.caja-baja-footer-izquierda{
+    width: 50%;
+    float: left;
+}
+
+.caja-baja-footer-derecha{
+    width: 50%;
+    float: right;
+}
+
+.hijo-footer{
+    float: right;
+}
+
+.caja-baja-footer-derecha i {
+    font-size: 25px;
+}
+
+.facebook:hover{
+    color: blue;
+}
+
+.twitter:hover{
+    color: cyan;
+}
+
+.instagram:hover{
+    color: indianred;
+}
+
+.youtube:hover{
+    color: red;
+}
+
+.linkedin:hover{
+    color: cornflowerblue;
+}
