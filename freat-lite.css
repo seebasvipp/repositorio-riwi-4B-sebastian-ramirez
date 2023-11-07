@@ -63,7 +63,7 @@ body{
 
 .menu li:hover .submenu{
     display: block;
-    width: 150px;
+    width: auto;
     position: absolute;
 }
 
