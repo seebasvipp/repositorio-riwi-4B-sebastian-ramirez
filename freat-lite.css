@@ -346,6 +346,9 @@ footer{
     color: cornflowerblue;
 }
 
-.hijo-footer i:hover{
-    font-size: 45px;
+i{
+    color: black;
 }
+
+
+
