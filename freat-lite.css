@@ -90,16 +90,20 @@ body{
 }
 
 
-.imagen{
+.imagen-categorias{
     text-align: center;
     padding-left: 15px;
 }
 
-.imagen img{
+.imagen-categorias img{
     height: 250px;
     border: 1px solid black;
     width: 250px;
     border-radius: 100%;
+}
+
+.imagen-categorias img:hover{
+    border: 4px solid black;
 }
 
 .seccion-2{
@@ -130,9 +134,19 @@ body{
 
 .caja-principal{
     margin-left: 15px;
-    border-radius: 10px;
+    border-radius: 4px;
     border: 1px solid gray;
     margin-bottom: 15px;
+    height: auto;
+}
+
+.caja-principal h2{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.caja-principal button{
+    margin-bottom: 5px;
 }
 
 .caja-principal:hover{
@@ -240,7 +254,7 @@ textarea{
 
 .banner-testimonios{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .grid-testimonios{
@@ -260,7 +274,10 @@ textarea{
 }
 
 .imagen-testimonios{
-    width: 150px;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 2px solid black;
 }
 
 .caja-testimonios:hover{
@@ -302,6 +319,7 @@ footer{
 
 .hijo-footer{
     float: right;
+    margin-right: 5px;
 }
 
 .caja-baja-footer-derecha i {
@@ -326,4 +344,8 @@ footer{
 
 .linkedin:hover{
     color: cornflowerblue;
+}
+
+.hijo-footer i:hover{
+    font-size: 45px;
 }
