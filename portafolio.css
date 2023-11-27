@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
@@ -26,14 +27,17 @@ header nav ul li{
     cursor: pointer;
 }
 
+
 header nav ul li ul{
     display: none;
 }
+
 
 header nav ul li:hover{
     background-color: #0b3f55;
     color: white;
 }
+
 
 header nav ul li:hover ul{
     display: block;
@@ -44,18 +48,22 @@ header nav ul li:hover ul{
     top: 47px;
 }
 
+
 a{
     text-decoration: none;
 }
+
 
 .frase{
     margin-top: 10px;
     text-align: center;
 }
 
+
 .contenedor_1{
     border-bottom: 2px solid black;
 }
+
 
 td{
     text-align: center;
@@ -65,9 +73,22 @@ td{
 
 }
 
+
 .captura{
     border-radius: 50px;
     border: 1px solid black;
+    height: 250px;
+}
 
 
+.section-1{
+    height: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.contenedor{
+    text-align: center;
 }
