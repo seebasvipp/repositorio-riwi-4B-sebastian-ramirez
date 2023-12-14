@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container1{
+    box-shadow: 1px 1px 26px greenyellow, 4px 1px 25px blue;
+}
+
+.titulo{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 25px red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto{
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 25px green;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px royalblue;
+}
+
+.doclink{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px royalblue;
+}
+
+.footer{
+    border-top: 1px solid black;
+}
